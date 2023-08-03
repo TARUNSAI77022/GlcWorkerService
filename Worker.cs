@@ -44,7 +44,7 @@ namespace EmailWorkerService
                 try
                 {
                     DateTime currentTime = DateTime.Now;
-                    TimeSpan desiredTime = new TimeSpan(12, 04, 00); // Desired time is 9:00 AM
+                    TimeSpan desiredTime = new TimeSpan(12, 25, 00); // Desired time is 9:00 AM
 
                     //if (currentTime.TimeOfDay == desiredTime)
                     if (currentTime.TimeOfDay.Hours == desiredTime.Hours && currentTime.TimeOfDay.Minutes == desiredTime.Minutes)
